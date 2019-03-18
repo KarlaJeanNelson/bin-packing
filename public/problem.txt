@@ -1,0 +1,47 @@
+
+hello!
+The purpose of this case study is not only to gauge your technical ability, but also to understand how you break down a problem and work towards a solution.  During your interview, we will review your solution together.  We’ll also spend some time on the white board discussing extensions to the problem!
+
+prep
+Please bring any materials you need to present your solution (i.e. your laptop).  We will have a room with a projector and whiteboard.  We recommend that you spend about 2-3 hours to complete the problem.  If you don’t complete the problem, walk us through what your planning or pseudocode.
+
+notes
+Complete the problem with your choice of tech stack
+When appropriate use the data store of your choice
+Use any frameworks/libraries you desire
+Be prepared to discuss these choices
+
+Provide evidence of your result (choose one)
+Documented Output
+Hosted instance of implementation
+Runnable instance of implementation on your computer
+
+exercise
+“box packing” plays a large role in Target’s supply chain.  The types and sizes of boxes and our ability to fit product into those boxes have a direct impact on our bottom line (cost).  Over the past few years, the Apollo Labs team has built several “prototypes” that help answer questions related to box packing.
+
+Assume that the list of items in the items.csv file represent products that Target sells.
+
+Assume you have an infinite number of boxes with the below dimensions:
+
+Length (inches)
+14 in
+Width (inches)
+20 in
+Height (inches)
+9.75 in
+Cubic Volume (inches)
+2730 in3
+Cubic Volume (feet)
+1.58 ft3
+
+Develop and implement an approach in the programming language of your choice to assign items (from the items.csv file) into boxes with the above dimensions using the smallest number of boxes.  How many boxes will you need to pack the items?
+The output of your code should detail which items were assigned into which boxes.
+Constraint: No box can have an aggregate volume greater than its capacity (cubic volume)
+
+Refactor your code so that each box can only include items within its same group type (column in items.csv file).  How many boxes will you need to pack the items given this new constraint?
+
+Considerations:
+How do you know your solution is not assigning too many items into a box?
+Is it easy for you to determine how full an average box is?
+Would you rethink your solution if the items.csv file as 5 million records?
+What are other applications of a ‘box packing’ problem in the supply chain?
